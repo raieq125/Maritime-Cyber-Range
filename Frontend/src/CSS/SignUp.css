@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color: white;
+}
+h2{
+    padding-left: 25%;
+}
+.signup {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5%;
+    background-color: rgba(0,0,0,0.5);;
+  }
+  .signup__form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .signup__input {
+    margin-bottom: 20px;
+  }
+  
+  .signup-box {
+    margin-bottom: 10px;
+  }
+  
+  .signup--input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .signup--input:focus {
+    outline: none;
+    border-color: dodgerblue;
+  }
+  
+  button {
+    width: 100%;
+    background-color: rgb(30, 255, 248);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0089ea;
+  }
+  
+  p {
+    text-align: center;
+  }
+  
+  a {
+    color: dodgerblue;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .nav h3{
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+}
+body.navbar-background {
+  background-image: url('../photos_questions/hero-image.webp');
+  background-repeat: no-repeat;
+  background-size: cover;
+}

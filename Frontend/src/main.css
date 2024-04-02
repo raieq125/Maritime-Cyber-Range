@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+body {
+  background: #a8d3ff;
+  user-zoom: 1.1;
+}
+
+.blue-btn {
+  background-color: blue;
+  color: white;
+}
+
+.Toastify__toast-body{
+  width: 100%;
+}
+
+.Toastify__close-button{
+  width: 20px;
+}

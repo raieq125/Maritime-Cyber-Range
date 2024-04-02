@@ -1,0 +1,66 @@
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.navyclr {
+    color: #001f3f;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.navyclr span {
+    color: #034587;
+    font-weight: bold;
+}
+
+
+.texttoleft {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .texttoleft {
+        text-align: justify;
+        width: 80vw;
+        margin: auto;
+        font-size: 0.7rem;
+    }
+}
+
+.topsign {
+    color: aliceblue;
+    background: #034587;
+    transition: 500ms ease;
+}
+
+.topsign:hover {
+    color: rgba(240, 248, 255, 0.779);
+    background: #02305e;
+}
+
+.getstart {
+    background: #033c75;
+    color: aliceblue;
+    transition: 500ms ease;
+}
+
+.getstart:hover {
+    background: #02305e;
+    color: rgba(240, 248, 255, 0.779);
+}
